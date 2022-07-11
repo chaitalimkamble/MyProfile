@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Registration Form </title>
+</head>
+
+<body>
+  
+  <form>
+    <fieldset>
+      <legend>   <h3> Student Registration Form </h3>
+      </legend> 
+  <table>
+     <tbody>
+       <tr>
+         <td> <label for="firstname"> First Name </label></td>
+         <td > <input type="text" maxLength="10" id="firstname" placeholder="Enter First Name"> </td>
+       </tr>
+
+       <tr>
+        <td> <label for="lastname"> Last Name </label></td>
+        <td > <input type="text" id="lastname"> </td>
+      </tr>
+
+      <tr>
+        <td> <label> Mobile Number </label></td>
+        <td > <input type="number" required autofocus placeholder="Enter with entry code"> </td>
+      </tr>
+
+      <tr>
+        <td> <label> Email Id </label></td>
+        <td > <input type="email" required placeholder="Ex-abc@gmail.com"> </td>
+      </tr>
+
+      <tr>
+        <td> <label> Password </label></td>
+        <td> <input type="password" required ></td>
+      </tr>
+
+      <tr> 
+        <td><label> Country </label></td>
+        <td><input type="text" value="India" readonly></td>
+      </tr>
+
+      <tr>
+        <td> <label> Date of Birth </label></td>
+        <td> <input type="date"></td>
+      </tr>
+      <tr>
+        <td> <label> Available in week</label></td>
+        <td> <input type="week"></td>
+      </tr>
+      
+      <tr>
+        <td> <label> Preffered Time </label></td>
+        <td> <input type="file"></td>
+      </tr>
+
+      <tr>
+        <td> <label> select profile photo </label></td>
+        <td> <input type="date"></td>
+      </tr>
+
+      <tr>
+        <td> <label> selet Certificates </label></td>
+        <td> <input type="file" multiple></td>
+      </tr>
+
+      <tr>
+        <td> <label> select Grduation </label></td>
+        <td> 
+          <select>
+            <option> BE </option>
+            <option> MCA </option>
+            <option> MCS </option>
+            <option> MCOM </option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td> <label> Select Graduation</label></td>
+        <td>
+          <select>
+            <optgroup label="Bachelor of Engineering">
+             <option> Computer Science </option>
+             <option> Informstion Technology </option>
+             <option> Cvil </option>
+             <option> Mechanical </option>
+            </optgroup>
+
+            <optgroup label="Master in Cpmputer Application">
+              <option> MCA Science</option>
+              <option> MCA Commerce </option>
+            </optgroup>
+
+            <optgroup label="MBA">
+              <option> Finance </option>
+              <option> Human Resources </option>
+              <option> Material Science </option>
+              <option> Bussiness </option>
+            </optgroup>
+
+ 
+          </select>
+        </td>
+      </tr>
+
+
+
+ 
+      <tr>
+        <td> <label> Select Gender </label> </td>
+        <td> 
+        <input type="radio" name="gender"> <label> Male </label>
+        <input type="radio" name="gender"> <label> Female </label>
+        <input type="radio" name="gender"> <label> Others </label>
+      </td>
+       
+      <tr>
+        <td> <label> Please select Tranning </label></td>
+        <td>
+          <input type="checkbox"> <label> Angular </label>
+          <input type="checkbox"> <label> Java </label>
+          <input type="checkbox"> <label> .NET </label>
+        
+        </td>
+      </tr>
+
+
+        
+      </tr>
+      
+      <tr> 
+        <td><label> Do you have bank account </label></td>
+        <td><input type="text" value="YES" disabled></td>
+      </tr>
+
+      <tr>
+        <td><label> Address </label></td>
+        <td><textarea cols="30" rows="7"></textarea></td>
+      </tr>
+
+      <tr>
+        <td> <input type="Submit"></td>
+        <td><input type="Reset"></td>
+      </tr>
+
+
+
+     </tbody>
+
+  </table>
+</fieldset>
+
+  </form>
+</body>
+
+</html>
