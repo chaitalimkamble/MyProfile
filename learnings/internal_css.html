@@ -57,10 +57,11 @@
                 font-family: 'Roboto', sans-serif;
              }
 
-             ul {
+             ul{
                 list-style: upper-alpha;
                 background-color: cadetblue;
                 color: white;
+                float: right;
                 
              }
 
@@ -73,10 +74,18 @@
                 margin-bottom: 5px;
              }
 
-             .story {
+           /*  .story {
                 border-bottom:1px;
                 border-bottom-style: dotted;
                 border-color: cadetblue;
+             }*/
+
+             #overflow_prop {
+                width:200px;
+                height: 200px;
+                border: 1px solid cadetblue;
+                overflow: auto;
+                
              }
            /*  h4 {
             color:red;
@@ -97,7 +106,26 @@
 </head>
 
 <body>
-    <h3> My Hobbies </h3>
+     
+    <p id="overflow_prop"> 
+Having 2 years of experience in developing Single page Web Applications using Angular 8, HTML5, CSS3, Bootstrap 5, JavaScript, TypeScript
+Experience in working with Angular 8 modules, services, templates, directives, services and dependency injection to create SPA
+Hands on experience on Angular CLI (Command line Interface)
+Good hands on experience in HTML5, CSS, JavaScript (ES6) and TypeScript
+Good amount of work done on Reactive Forms in Angular 8 and their validations
+Extensively worked on CSS background, CSS Positioning, Text, Border, Margin, Padding, Pseudo Elements & classes
+Experience on working with version control system - GIT and GitHub
+Experience working with JIRA for user stories and bug tracking
+Strong Debugging & Troubleshooting code experience using Chrome Developer Tool
+Working exposure on ID's like VS code and Notepad++
+Good working experience under Agile mrthodologies environment
+Experience in using Chrome Developer Tool for debugging and Troubleshooting the code
+Knoweldge of NodeJS
+
+
+    </p>
+
+    <h3 id="hobbies"> My Hobbies </h3>
     <ol>
         <li class="story"> Reading Stories </li>
         <li> Playing Carrom </li>
@@ -105,7 +133,9 @@
         <li> Making Craft Like Greatings </li>
         
     </ol>
+    
     <h3> My Strength </h3>
+    
     <ul>
         <li>Ability to work in team</li>
         <li>Ability to learn quickly, hardworking and punctual </li>
