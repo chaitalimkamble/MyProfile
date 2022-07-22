@@ -3,13 +3,24 @@
 
 <head>
     <title> My Profile </title>
-    <style>
+    
+
+    <!-- <style>
         .header_section {
 
-            margin-right: 20px;
-            background-color:rgb(5,68,104);
+            margin-right: 10px;
+            background-color: rgb(5, 68, 104);
             color: white;
+            padding-top: 3px;
+
+
+        }
+
+        li {
             
+            display: inline-block;
+            width: 250px;
+            height: 25px;
         }
 
         .para2 {
@@ -18,28 +29,156 @@
             width: 900px;
             height: 200;
         }
-    </style>
+    </style> -->
     <link rel="icon" type="image/x-icon" href="D:\Angular\myProfile\resources\chaitali.jpeg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/style.css">
 
 
 </head>
 
 <body>
+   
+
+    <div class="wrapper">
+        <div class="sidebar">
+            <!-- Profile photo -->
+            <div class="profile">
+                <img src="resources/chaitali1.jpeg" alt="profile photo">
+                <h3> Chaitali Kamble </h3>
+                <p> Front End Developer </p>
+            </div>
+
+            <!-- Menu Item -->
+            <ul>
+                <li>
+                    <a href="home.html" target="myFrame">
+                        <span class="icon">
+                            <i class="fa fa-home" aria-hidden="true"></i>
+                        </span>
+                        <span class="item"> Home </span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="tech_stack.html" target="myFrame">
+                        <span class="icon">
+                            <i class="fa fa-laptop" aria-hidden="true"></i>
+                        </span>
+                        <span class="item"> Technology Stack </span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="project.html" target="myFrame">
+                        <span class="icon">
+                            <i class="fa fa-tasks" aria-hidden="true"></i>
+                        </span>
+                        <span class="item"> Project </span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="education.html" target="myFrame">
+                        <span class="icon">
+                            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                        </span>
+                        <span class="item"> Education </span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="hobbies.html" target="myFrame">
+                        <span class="icon">
+                            <i class="fa fa-handshake-o" aria-hidden="true"></i>
+                        </span>
+                        <span class="item"> Hobbies </span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="personalDetails.html" target="myFrame">
+                        <span class="icon">
+                            <i class="fa fa-user" aria-hidden="true"></i>
+                        </span>
+                        <span class="item"> Personal Details </span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="others.html" target="myFrame">
+                        <span class="icon">
+                            <i class="fa fa-bullseye" aria-hidden="true"></i>
+                        </span>
+                        <span class="item"> Others </span>
+                    </a>
+                </li>
+            </ul>
+            <br>
+            
+                <footer>
+                    <span style="color:white"> Follow me: </span> <br> <br>
+                    <a href="https://www.instagram.com/accounts/login/" target="_blank">
+                        <i class="fa fa-instagram fa-2x" style="color:white" aria-hidden="true"> </i>
+                        <a href="https://www.linkedin.com/signup" target="_blank">
+                            <i class="fa fa-linkedin-square fa-2x" style="color:white" aria-hidden="true"> </i>
+            
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <i class="fa fa-facebook-official fa-2x" style="color:white" aria-hidden="true"> </i>
+            
+                                <a href="https://twitter.com/i/flow/login" target="_blank">
+                                    <i class="fa fa-twitter-square fa-2x" style="color:white" aria-hidden="true"> </i>
+                </footer>
+                
+        
+
+        </div>
+       
+
+        <!-- top menu bar -->
+        <div class="section">
+            <div class="top_navbar">
+                <div class="header_section"> 
+                    <li> <i class="fa fa-user" aria-hidden="true"></i><span class="header_section"> Chaitali Kamble </span>
+                    </li>
+                    <li><i class="fa fa-envelope" aria-hidden="true"></i><span class="header_section"> kamblechaitali96@gmail.com</span> </li>
+                    <li><i class="fa fa-mobile" aria-hidden="true"></i><span class="header_section"> 8830 159 429</span> </li>
+                </div>
+                
+                <!-- <div class="bar_strip">
+                    <a href="#"> <i class="fa fa-bars"> </i> </a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Frame to load pages -->
+    <div class="frame_section">
+        <iframe name="myFrame" src="home.html" style="border: none;">
+        </iframe>
+    </div>
 
 
-    <header>
+    <!-- <header>
         <div class="header_section">
+            <li> <i class="fa fa-user" aria-hidden="true"></i><span class="header_section"> Chaitali Kamble </span>
+            </li>
+            <li><i class="fa fa-envelope" aria-hidden="true"></i><span class="header_section"> kamblechaitali96@gmail.com</span> </li>
+            <li> <i class="fa fa-mobile" aria-hidden="true"></i><span class="header_section"> 8830 159 429</span> </li>
+        </div> -->
+
+        <!-- <div class="header_section">
             <p style="color:white;font-size:18px">
                 <i class="fa fa-user" aria-hidden="true"></i><span class="header_section"> Chaitali Kamble </span>
                 <i class="fa fa-envelope" aria-hidden="true"></i><span class="header_section">
                     kamblechaitali96@gmail.com</span>
 
-
+ 
                 <i class="fa fa-mobile" aria-hidden="true"></i><span class="header_section"> 8830 159 429</span>
             </p>
-        </div>
-    </header>
+        </div> -->
+
+    <!-- </header>
     <hr>
     <nav class="header_section">
         <a href="home.html" target="myFrame"> <span class="header_section"> HOME </span> </a>
@@ -56,24 +195,24 @@
         <iframe width="1100px" height="550px" name="myFrame" src="home.html" style="border:none;">
 
         </iframe>
-    </div>
+    </div> -->
 
     <footer>
         <span> Follow me => </span>
         <a href="https://www.instagram.com/accounts/login/" target="_blank">
-            <i class="fa fa-instagram fa-2x" style="color:pink" aria-hidden="true"> </i>
+            <i class="fa fa-instagram fa-2x" style="color:pink" aria-hidden="true"> </i> </a>
 
 
 
             <a href="https://www.linkedin.com/signup" target="_blank">
-                <i class="fa fa-linkedin-square fa-2x" style="color:blue" aria-hidden="true"> </i>
+                <i class="fa fa-linkedin-square fa-2x" style="color:blue" aria-hidden="true"> </i></a>
 
                 <a href="https://www.facebook.com/" target="_blank">
-                    <i class="fa fa-facebook-official fa-2x" style="color:blue" aria-hidden="true"> </i>
+                    <i class="fa fa-facebook-official fa-2x" style="color:blue" aria-hidden="true"> </i> </a>
 
                     <a href="https://twitter.com/i/flow/login" target="_blank">
-                        <i class="fa fa-twitter-square fa-2x" style="color:#2196F3" aria-hidden="true"> </i>
-                        </p>
+                        <i class="fa fa-twitter-square fa-2x" style="color:#2196F3" aria-hidden="true"> </i> </a>
+                    
     </footer>
 
 </body>

@@ -8,11 +8,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@400;700&family=Sofia&display=swap"
         rel="stylesheet">
     <style>
+        .para2 {
+            color: rgb(184, 9, 149);
+            font-size: 18px;
+            background-color: rgb(205, 227, 255); 
+            width: 200px;
+            height: 20px;
+            /* border-bottom: ridge; */
+            font-family: 'Roboto', sans-serif;
+            text-shadow: 3px 3px 6px cadetblue;
+            text-transform: uppercase;
+        } 
+        body {
+            
+            background-image: url(learnings/bakground1.jpeg);
+            background-size: cover;
+        }
+        
          table {
-            border:1px dotted cadetblue;
+            /* border:1px dotted cadetblue; */
             margin-top: 30px;
             margin-left: 30px;
-            border-collapse: collapse;
+            border-collapse: collapse; 
             /* width:80%; */
             
          }
@@ -20,21 +37,25 @@
             border:1px solid cadetblue;
             text-align: left;
             padding: 10px;
-            color:cadetblue;
-            border-bottom: 1px;
+            color:rgb(3, 54, 56);
+            border-bottom: 1px solid;
             
          }
          
          th {
             text-transform: uppercase;
             color:brown;
-            background-color: bisque;
+            background-color: bisque;  
 
          }
-         td {
-            background-color: azure;
+        
+
+         tbody tr:nth-child(n):hover {
+            background-color:blueviolet ;
 
          }
+
+         
         
 
         /* .pune {
@@ -45,34 +66,23 @@
           table,th,td {
             border: 1px solid;
         }*/
-       .para2 {
-            color: rgb(184, 9, 149);
-            font-size: 18px;
-            background-color: rgb(205, 227, 255);
-            width: 200px;
-            height: 20px;
-            border-bottom: ridge;
-            font-family: 'Roboto', sans-serif;
-            text-shadow: 3px 3px 6px cadetblue;
-            text-transform: uppercase;
-        } 
-        body {
-            
-            background-image: url(learnings/bakground1.jpeg);
-            background-size: cover;
-        }
+       
+       
     </style>
 </head>
 
 <body>
     <h3 class="para2"> Education Details </h3>
     <table>
+        
         <thead>
             <th> Exam </th>
             <th> School/College </th>
             <th> Univercity </th>
             <th> Year of Passing </th>
             <th> Percentage(%) </th>
+        </thead>
+            <tbody>
 
             <tr>
                 <td> BE IT </td>
@@ -99,7 +109,8 @@
                 <td> 2011 </td>
                 <td> 72.18 </td>
             </tr>
-        </thead>
+        
+        </tbody>
     </table>
 
 </body>
